@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="atlasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Stylized A with speed / dynamic lines -->
+  <g fill="#ffffff">
+    <!-- Main A shape & lines -->
+    <path d="M 62 18 L 86 82 L 67 82 L 61 65 L 35 65 L 29 82 L 10 82 L 34 18 Z M 48 30 L 39 54 L 57 54 Z" />
+    
+    <!-- Speed streaks on the left leg of A -->
+    <polygon points="6,82 18,82 42,20 30,20" opacity="0.9"/>
+    <polygon points="12,82 22,82 46,20 36,20" fill="#f8fafc"/>
+    <line x1="2" y1="82" x2="28" y2="24" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="8" y1="82" x2="34" y2="24" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="14" y1="82" x2="40" y2="24" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="20" y1="82" x2="46" y2="24" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- tlas letters -->
+    <!-- t -->
+    <path d="M 102 34 L 102 44 L 112 44 L 112 55 L 102 55 L 102 72 C 102 76 104 78 109 78 C 111 78 113 77 115 76 L 115 82 C 112 83 108 84 103 84 C 94 84 89 79 89 70 L 89 55 L 81 55 L 81 44 L 89 44 L 89 34 Z"/>
+    
+    <!-- l -->
+    <path d="M 124 20 L 137 20 L 137 82 L 124 82 Z"/>
+    
+    <!-- a -->
+    <path d="M 175 44 L 175 82 L 163 82 L 163 76 C 159 81 153 84 146 84 C 136 84 129 77 129 67 C 129 56 138 50 151 50 C 156 50 160 51 163 52 L 163 50 C 163 45 159 42 153 42 C 148 42 143 44 140 46 L 137 36 C 142 34 149 32 156 32 C 168 32 175 37 175 44 Z M 163 60 C 160 59 157 58 153 58 C 146 58 142 61 142 66 C 142 71 146 74 151 74 C 158 74 163 69 163 63 Z"/>
+    
+    <!-- s -->
+    <path d="M 183 72 L 194 70 C 195 75 199 78 206 78 C 211 78 215 76 215 72 C 215 68 212 66 204 64 C 191 61 184 56 184 46 C 184 37 192 32 204 32 C 214 32 222 36 224 45 L 213 47 C 212 43 209 41 204 41 C 200 41 197 43 197 46 C 197 49 199 50 207 52 C 220 55 228 60 228 70 C 228 80 219 84 206 84 C 194 84 185 79 183 72 Z"/>
+  </g>
+
+  <!-- Divider lines & SOFTWARE text -->
+  <line x1="20" y1="102" x2="88" y2="102" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <text x="160" y="107" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="16" font-weight="700" fill="#ffffff" letter-spacing="4" text-anchor="middle">SOFTWARE</text>
+  <line x1="232" y1="102" x2="300" y2="102" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+</svg>

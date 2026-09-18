@@ -1,0 +1,21 @@
+{
+  "name": "haremaltin-collector",
+  "version": "1.0.0",
+  "description": "Harem Altın Realtime WebSocket Price Collector and HTTP API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sharp": "^0.35.4",
+    "socket.io-client": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
