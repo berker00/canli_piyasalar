@@ -20,6 +20,8 @@ async function main() {
   console.log(`Port:           ${config.port}`);
   console.log(`Output Path:    ${config.outputPath}`);
   console.log(`Flush Interval: ${config.flushIntervalMs}ms`);
+  console.log(`Host System:    ${config.system.platform} (${config.system.arch})`);
+  console.log(`User-Agent:     ${config.socket.userAgent}`);
   console.log(`Socket Target:  ${config.socket.url}`);
   console.log('----------------------------------------------------');
 

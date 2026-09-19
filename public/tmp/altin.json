@@ -1,31 +1,31 @@
 {
-  "last_updated_at": "2026-09-18T14:12:46.723Z",
+  "last_updated_at": "2026-09-19T14:39:03.851Z",
   "total_items": 55,
   "data": {
     "USDTRY": {
       "code": "USDTRY",
-      "alis": "48.6100",
-      "satis": "48.6840",
-      "tarih": "18-09-2026 17:07:30",
+      "alis": "48.6600",
+      "satis": "48.7600",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "up",
-        "satis_dir": "down"
+        "alis_dir": "",
+        "satis_dir": "up"
       },
-      "dusuk": "48.6720",
-      "yuksek": "50.2150",
+      "dusuk": "48.7200",
+      "yuksek": "48.7500",
       "kapanis": 48.571
     },
     "ALTIN": {
       "code": "ALTIN",
-      "alis": "6782.150",
-      "satis": "6811.060",
-      "tarih": "18-09-2026 17:12:45",
+      "alis": "6818.350",
+      "satis": "6848.410",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
+        "alis_dir": "",
+        "satis_dir": "up"
       },
-      "dusuk": "6791.370",
-      "yuksek": "6993.030",
+      "dusuk": "6840.100",
+      "yuksek": "6860.180",
       "kapanis": 6785.66
     },
     "OMRUSD": {
@@ -42,41 +42,41 @@
     },
     "USDPURE": {
       "code": "USDPURE",
-      "alis": "139.5000",
-      "satis": "139.9020",
-      "tarih": "18-09-2026 17:12:45",
-      "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
-      },
-      "dusuk": "139.0480",
-      "yuksek": "141.1020",
-      "kapanis": 139.706
-    },
-    "EURTRY": {
-      "code": "EURTRY",
-      "alis": "55.6100",
-      "satis": "55.7760",
-      "tarih": "18-09-2026 17:12:45",
-      "dir": {
-        "alis_dir": "up",
-        "satis_dir": "up"
-      },
-      "dusuk": "55.7370",
-      "yuksek": "57.5940",
-      "kapanis": 56.272
-    },
-    "ONS": {
-      "code": "ONS",
-      "alis": "4354.40",
-      "satis": "4354.80",
-      "tarih": "18-09-2026 17:12:46",
+      "alis": "140.1010",
+      "satis": "140.4530",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": "4335.20",
-      "yuksek": "4398.90",
+      "dusuk": "140.3970",
+      "yuksek": "140.7690",
+      "kapanis": 139.706
+    },
+    "EURTRY": {
+      "code": "EURTRY",
+      "alis": "55.7670",
+      "satis": "55.9580",
+      "tarih": "19-09-2026 15:00:19",
+      "dir": {
+        "alis_dir": "",
+        "satis_dir": "up"
+      },
+      "dusuk": "55.9120",
+      "yuksek": "55.9460",
+      "kapanis": 56.272
+    },
+    "ONS": {
+      "code": "ONS",
+      "alis": "4378.10",
+      "satis": "4378.70",
+      "tarih": "19-09-2026 15:00:19",
+      "dir": {
+        "alis_dir": "",
+        "satis_dir": ""
+      },
+      "dusuk": "4378.70",
+      "yuksek": "4378.70",
       "kapanis": 4348.9
     },
     "AEDUSD": {
@@ -93,106 +93,106 @@
     },
     "EURUSD": {
       "code": "EURUSD",
-      "alis": 1.144,
-      "satis": 1.1457,
-      "tarih": "18-09-2026 17:12:45",
-      "dir": {
-        "alis_dir": "",
-        "satis_dir": "up"
-      },
-      "dusuk": 1.1449,
-      "yuksek": 1.1485,
-      "kapanis": 1.1586
-    },
-    "USDKG": {
-      "code": "USDKG",
-      "alis": "138800.0",
-      "satis": "139200.0",
-      "tarih": "18-09-2026 17:12:45",
+      "alis": 1.146,
+      "satis": 1.1476,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": "138350.0",
-      "yuksek": "140400.0",
+      "dusuk": 1.1476,
+      "yuksek": 1.1479,
+      "kapanis": 1.1586
+    },
+    "USDKG": {
+      "code": "USDKG",
+      "alis": "139400.0",
+      "satis": "139750.0",
+      "tarih": "19-09-2026 15:00:19",
+      "dir": {
+        "alis_dir": "",
+        "satis_dir": ""
+      },
+      "dusuk": "139700.0",
+      "yuksek": "140070.0",
       "kapanis": 139010
     },
     "KWDUSD": {
       "code": "KWDUSD",
       "alis": "3.0720",
       "satis": "3.2830",
-      "tarih": "17-09-2026 12:15:57",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": "3.2530",
+      "dusuk": "3.2830",
       "yuksek": "3.2830",
       "kapanis": 3.283
     },
     "EURKG": {
       "code": "EURKG",
-      "alis": 121160,
-      "satis": 121680,
-      "tarih": "18-09-2026 17:12:45",
+      "alis": 121470,
+      "satis": 121940,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 120730,
-      "yuksek": 122480,
+      "dusuk": 121890,
+      "yuksek": 122200,
       "kapanis": 120230
     },
     "GBPTRY": {
       "code": "GBPTRY",
-      "alis": 64.536,
-      "satis": 64.858,
-      "tarih": "18-09-2026 17:12:18",
-      "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
-      },
-      "dusuk": 64.807,
-      "yuksek": 66.952,
-      "kapanis": 65.587
-    },
-    "JODTRY": {
-      "code": "JODTRY",
-      "alis": 66.109,
-      "satis": 69.6202,
-      "tarih": "18-09-2026 17:07:30",
-      "dir": {
-        "alis_dir": "up",
-        "satis_dir": "down"
-      },
-      "dusuk": 69.6029,
-      "yuksek": 71.8086,
-      "kapanis": 69.4578
-    },
-    "AYAR22": {
-      "code": "AYAR22",
-      "alis": "6169.760",
-      "satis": "6382.400",
-      "tarih": "18-09-2026 17:12:45",
-      "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
-      },
-      "dusuk": "6363.890",
-      "yuksek": "6553.450",
-      "kapanis": 6358.52
-    },
-    "CHFTRY": {
-      "code": "CHFTRY",
-      "alis": 58.247,
-      "satis": 59.017,
-      "tarih": "18-09-2026 17:12:31",
+      "alis": 64.829,
+      "satis": 65.191,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": "up"
       },
-      "dusuk": 58.948,
-      "yuksek": 61.022,
+      "dusuk": 65.138,
+      "yuksek": 65.178,
+      "kapanis": 65.587
+    },
+    "JODTRY": {
+      "code": "JODTRY",
+      "alis": 66.177,
+      "satis": 69.7276,
+      "tarih": "19-09-2026 15:00:19",
+      "dir": {
+        "alis_dir": "",
+        "satis_dir": "up"
+      },
+      "dusuk": 69.6704,
+      "yuksek": 69.7133,
+      "kapanis": 69.4578
+    },
+    "AYAR22": {
+      "code": "AYAR22",
+      "alis": "6202.700",
+      "satis": "6417.500",
+      "tarih": "19-09-2026 15:00:19",
+      "dir": {
+        "alis_dir": "",
+        "satis_dir": "up"
+      },
+      "dusuk": "6409.690",
+      "yuksek": "6428.570",
+      "kapanis": 6358.52
+    },
+    "CHFTRY": {
+      "code": "CHFTRY",
+      "alis": 58.508,
+      "satis": 59.316,
+      "tarih": "19-09-2026 15:00:19",
+      "dir": {
+        "alis_dir": "",
+        "satis_dir": "up"
+      },
+      "dusuk": 59.267,
+      "yuksek": 59.304,
       "kapanis": 59.494
     },
     "USDILS": {
@@ -209,15 +209,15 @@
     },
     "AUDTRY": {
       "code": "AUDTRY",
-      "alis": 33.843,
-      "satis": 34.436,
-      "tarih": "18-09-2026 17:12:22",
+      "alis": 33.936,
+      "satis": 34.549,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
+        "alis_dir": "",
+        "satis_dir": "up"
       },
-      "dusuk": 34.423,
-      "yuksek": 35.564,
+      "dusuk": 34.52,
+      "yuksek": 34.541,
       "kapanis": 34.638
     },
     "USDMAD": {
@@ -234,28 +234,28 @@
     },
     "KULCEALTIN": {
       "code": "KULCEALTIN",
-      "alis": 6748.29,
-      "satis": 6824.73,
-      "tarih": "18-09-2026 17:12:44",
-      "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
-      },
-      "dusuk": 6805.08,
-      "yuksek": 7006.82,
-      "kapanis": 6799.23
-    },
-    "CADTRY": {
-      "code": "CADTRY",
-      "alis": 34.379,
-      "satis": 34.708,
-      "tarih": "18-09-2026 17:12:45",
+      "alis": 6784.26,
+      "satis": 6862.11,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 34.683,
-      "yuksek": 35.84,
+      "dusuk": 6853.78,
+      "yuksek": 6873.9,
+      "kapanis": 6799.23
+    },
+    "CADTRY": {
+      "code": "CADTRY",
+      "alis": 34.474,
+      "satis": 34.822,
+      "tarih": "19-09-2026 15:00:19",
+      "dir": {
+        "alis_dir": "",
+        "satis_dir": "up"
+      },
+      "dusuk": 34.794,
+      "yuksek": 34.815,
       "kapanis": 34.964
     },
     "OMRTRY": {
@@ -272,184 +272,184 @@
     },
     "XAUXAG": {
       "code": "XAUXAG",
-      "alis": 64.38,
-      "satis": 70.07,
-      "tarih": "18-09-2026 17:12:45",
+      "alis": 64.66,
+      "satis": 70.38,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 69.45,
-      "yuksek": 70.99,
+      "dusuk": 70.35,
+      "yuksek": 70.55,
       "kapanis": 71.51
     },
     "CEYREK_YENI": {
       "code": "CEYREK_YENI",
-      "alis": 11055,
-      "satis": 11134,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 11114,
+      "satis": 11195,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 11102,
-      "yuksek": 11431,
+      "dusuk": 11182,
+      "yuksek": 11215,
       "kapanis": 11093
     },
     "SARTRY": {
       "code": "SARTRY",
-      "alis": 12.66,
-      "satis": 13.088,
-      "tarih": "18-09-2026 17:07:30",
+      "alis": 12.673,
+      "satis": 13.108,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
-        "satis_dir": ""
+        "satis_dir": "up"
       },
-      "dusuk": 13.085,
-      "yuksek": 13.499,
+      "dusuk": 13.097,
+      "yuksek": 13.105,
       "kapanis": 13.057
     },
     "USDQAR": {
       "code": "USDQAR",
       "alis": 3.6595,
       "satis": 3.9215,
-      "tarih": "17-09-2026 12:15:57",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 3.6465,
+      "dusuk": 3.9215,
       "yuksek": 3.9215,
       "kapanis": 3.9215
     },
     "CEYREK_ESKI": {
       "code": "CEYREK_ESKI",
-      "alis": 10835,
-      "satis": 10937,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 10892,
+      "satis": 10997,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 10905,
-      "yuksek": 11228,
+      "dusuk": 10983,
+      "yuksek": 11016,
       "kapanis": 10896
     },
     "JODUSD": {
       "code": "JODUSD",
       "alis": 1.36,
       "satis": 1.43,
-      "tarih": "17-09-2026 12:15:57",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 1.4154,
+      "dusuk": 1.43,
       "yuksek": 1.43,
       "kapanis": 1.43
     },
     "USDCHF": {
       "code": "USDCHF",
-      "alis": "0.8250",
-      "satis": "0.8350",
-      "tarih": "18-09-2026 17:12:31",
+      "alis": "0.8220",
+      "satis": "0.8320",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
       "dusuk": "0.8320",
-      "yuksek": "0.8360",
+      "yuksek": "0.8320",
       "kapanis": 0.826
     },
     "YARIM_YENI": {
       "code": "YARIM_YENI",
-      "alis": 22110,
-      "satis": 22262,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 22228,
+      "satis": 22384,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 22198,
-      "yuksek": 22856,
+      "dusuk": 22357,
+      "yuksek": 22422,
       "kapanis": 22179
     },
     "JPYTRY": {
       "code": "JPYTRY",
-      "alis": 0.3013,
-      "satis": 0.3085,
-      "tarih": "18-09-2026 17:11:41",
+      "alis": 0.3034,
+      "satis": 0.3108,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 0.3081,
-      "yuksek": 0.322,
+      "dusuk": 0.3106,
+      "yuksek": 0.3108,
       "kapanis": 0.3165
     },
     "YARIM_ESKI": {
       "code": "YARIM_ESKI",
-      "alis": 21673,
-      "satis": 21840,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 21788,
+      "satis": 21959,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 21777,
-      "yuksek": 22422,
+      "dusuk": 21933,
+      "yuksek": 21997,
       "kapanis": 21758
     },
     "KWDTRY": {
       "code": "KWDTRY",
-      "alis": 149.3317,
-      "satis": 159.8095,
-      "tarih": "18-09-2026 17:07:30",
+      "alis": 149.4852,
+      "satis": 160.056,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "up",
-        "satis_dir": "down"
+        "alis_dir": "",
+        "satis_dir": "up"
       },
-      "dusuk": 159.7699,
-      "yuksek": 164.833,
+      "dusuk": 159.9247,
+      "yuksek": 160.0232,
       "kapanis": 159.4369
     },
     "AUDUSD": {
       "code": "AUDUSD",
-      "alis": "0.6960",
-      "satis": "0.7070",
-      "tarih": "18-09-2026 17:12:22",
+      "alis": "0.6970",
+      "satis": "0.7090",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": "0.7070",
-      "yuksek": "0.7100",
+      "dusuk": "0.7090",
+      "yuksek": "0.7090",
       "kapanis": 0.713
     },
     "TEK_YENI": {
       "code": "TEK_YENI",
-      "alis": 44084,
-      "satis": 44381,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 44319,
+      "satis": 44624,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 44253,
-      "yuksek": 45564,
+      "dusuk": 44570,
+      "yuksek": 44700,
       "kapanis": 44215
     },
     "TEK_ESKI": {
       "code": "TEK_ESKI",
-      "alis": 43379,
-      "satis": 43747,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 43610,
+      "satis": 43987,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 43621,
-      "yuksek": 44914,
+      "dusuk": 43933,
+      "yuksek": 44062,
       "kapanis": 43584
     },
     "ILSTRY": {
@@ -466,41 +466,41 @@
     },
     "USDCAD": {
       "code": "USDCAD",
-      "alis": "1.4030",
-      "satis": "1.4140",
-      "tarih": "18-09-2026 17:12:45",
+      "alis": "1.4000",
+      "satis": "1.4110",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
       "dusuk": "1.4110",
-      "yuksek": "1.4150",
+      "yuksek": "1.4110",
       "kapanis": 1.401
     },
     "ATA_YENI": {
       "code": "ATA_YENI",
-      "alis": 44708,
-      "satis": 45144,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 44947,
+      "satis": 45391,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 45014,
-      "yuksek": 46348,
+      "dusuk": 45336,
+      "yuksek": 45469,
       "kapanis": 44975
     },
     "ATA_ESKI": {
       "code": "ATA_ESKI",
-      "alis": 44695,
-      "satis": 45041,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 44933,
+      "satis": 45288,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
-        "satis_dir": "down"
+        "satis_dir": ""
       },
-      "dusuk": 44912,
-      "yuksek": 46243,
+      "dusuk": 45233,
+      "yuksek": 45366,
       "kapanis": 44873
     },
     "MADTRY": {
@@ -519,195 +519,195 @@
       "code": "USDSAR",
       "alis": "3.7200",
       "satis": "3.8400",
-      "tarih": "17-09-2026 12:15:57",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": "3.8170",
+      "dusuk": "3.8400",
       "yuksek": "3.8400",
       "kapanis": 3.84
     },
     "ATA5_YENI": {
       "code": "ATA5_YENI",
-      "alis": 223813,
-      "satis": 227541,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 225006,
+      "satis": 228787,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
-        "satis_dir": "down"
+        "satis_dir": ""
       },
-      "dusuk": 226886,
-      "yuksek": 233611,
+      "dusuk": 228509,
+      "yuksek": 229180,
       "kapanis": 226691
     },
     "USDJPY": {
       "code": "USDJPY",
-      "alis": "157.80100",
-      "satis": "161.31600",
-      "tarih": "18-09-2026 17:12:46",
+      "alis": "156.86200",
+      "satis": "160.38300",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "down",
+        "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": "159.38900",
-      "yuksek": "161.56300",
+      "dusuk": "160.38300",
+      "yuksek": "160.38300",
       "kapanis": 157.017
     },
     "ATA5_ESKI": {
       "code": "ATA5_ESKI",
-      "alis": 222795,
-      "satis": 225838,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 223983,
+      "satis": 227075,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
+        "alis_dir": "",
+        "satis_dir": ""
       },
-      "dusuk": 225188,
-      "yuksek": 231862,
+      "dusuk": 226799,
+      "yuksek": 227465,
       "kapanis": 224995
     },
     "GBPUSD": {
       "code": "GBPUSD",
-      "alis": "1.3280",
-      "satis": "1.3320",
-      "tarih": "18-09-2026 17:12:18",
+      "alis": "1.3320",
+      "satis": "1.3370",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": "1.3310",
-      "yuksek": "1.3350",
+      "dusuk": "1.3370",
+      "yuksek": "1.3370",
       "kapanis": 1.35
     },
     "GREMESE_YENI": {
       "code": "GREMESE_YENI",
-      "alis": 109397,
-      "satis": 110526,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 109980,
+      "satis": 111131,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
-        "satis_dir": "down"
+        "satis_dir": ""
       },
-      "dusuk": 110208,
-      "yuksek": 113474,
+      "dusuk": 110996,
+      "yuksek": 111322,
       "kapanis": 110113
     },
     "GREMESE_ESKI": {
       "code": "GREMESE_ESKI",
-      "alis": 108244,
-      "satis": 109436,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 108821,
+      "satis": 110035,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
-        "satis_dir": "down"
+        "satis_dir": ""
       },
-      "dusuk": 109121,
-      "yuksek": 112355,
+      "dusuk": 109902,
+      "yuksek": 110224,
       "kapanis": 109028
     },
     "AYAR14": {
       "code": "AYAR14",
-      "alis": "3708.000",
-      "satis": "4927.190",
-      "tarih": "18-09-2026 17:12:45",
+      "alis": "3728.280",
+      "satis": "4951.470",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
+        "alis_dir": "",
+        "satis_dir": "up"
       },
-      "dusuk": "4914.390",
-      "yuksek": "5045.470",
+      "dusuk": "4946.060",
+      "yuksek": "4959.120",
       "kapanis": 4910.68
     },
     "GUMUSTRY": {
       "code": "GUMUSTRY",
-      "alis": 96.565,
-      "satis": 104.964,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 96.624,
+      "satis": 105.115,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "up",
+        "alis_dir": "",
         "satis_dir": "up"
       },
-      "dusuk": 103.643,
-      "yuksek": 106.603,
+      "dusuk": 105.029,
+      "yuksek": 105.094,
       "kapanis": 100.734
     },
     "XAGUSD": {
       "code": "XAGUSD",
-      "alis": 66.29,
-      "satis": 66.31,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 66.26,
+      "satis": 66.3,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "up",
-        "satis_dir": "up"
+        "alis_dir": "",
+        "satis_dir": ""
       },
-      "dusuk": 65.27,
-      "yuksek": 67.34,
+      "dusuk": 66.3,
+      "yuksek": 66.3,
       "kapanis": 64.51
     },
     "GUMUSUSD": {
       "code": "GUMUSUSD",
-      "alis": 1986.5,
-      "satis": 2156,
-      "tarih": "18-09-2026 17:12:44",
+      "alis": 1985.7,
+      "satis": 2155.8,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "up",
-        "satis_dir": "up"
+        "alis_dir": "",
+        "satis_dir": ""
       },
-      "dusuk": 2122.5,
-      "yuksek": 2189,
+      "dusuk": 2155.6,
+      "yuksek": 2155.8,
       "kapanis": 2074
     },
     "XPTUSD": {
       "code": "XPTUSD",
-      "alis": 1789,
-      "satis": 1791.6,
-      "tarih": "18-09-2026 17:12:45",
+      "alis": 1800.7,
+      "satis": 1805.7,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
-        "alis_dir": "down",
-        "satis_dir": "down"
+        "alis_dir": "",
+        "satis_dir": ""
       },
-      "dusuk": 1773.8,
-      "yuksek": 1824.8,
+      "dusuk": 1805.7,
+      "yuksek": 1805.7,
       "kapanis": 1806.7
     },
     "XPDUSD": {
       "code": "XPDUSD",
-      "alis": 1303.6,
-      "satis": 1307.7,
-      "tarih": "18-09-2026 17:12:45",
+      "alis": 1301.2,
+      "satis": 1307.5,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 1284.1,
-      "yuksek": 1338.1,
+      "dusuk": 1307.5,
+      "yuksek": 1307.5,
       "kapanis": 1311.5
     },
     "PLATIN": {
       "code": "PLATIN",
-      "alis": 52520,
-      "satis": 57600,
-      "tarih": "18-09-2026 17:12:45",
+      "alis": 52890,
+      "satis": 58050,
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 57030,
-      "yuksek": 58670,
+      "dusuk": 58050,
+      "yuksek": 58050,
       "kapanis": 58090
     },
     "PALADYUM": {
       "code": "PALADYUM",
-      "alis": 31910,
+      "alis": 31830,
       "satis": 42040,
-      "tarih": "18-09-2026 17:12:45",
+      "tarih": "19-09-2026 15:00:19",
       "dir": {
         "alis_dir": "",
         "satis_dir": ""
       },
-      "dusuk": 41280,
-      "yuksek": 43020,
+      "dusuk": 42040,
+      "yuksek": 42040,
       "kapanis": 42160
     }
   }

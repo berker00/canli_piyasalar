@@ -33,6 +33,7 @@ Bu proje; Türkiye serbest piyasa ve Kapalıçarşı canlı altın fiyatları (G
 - ⭐ **Yerel Favoriler Sistemi (LocalStorage):** Kullanıcılar ilgilendikleri kurları yıldızlayarak favorilerine ekleyebilir ve "Favoriler" sekmesinden kolayca filtreleyebilir.
 - 🏷️ **Gelişmiş Kategori Filtreleme:** Altın, Döviz, Ziynet & Sikke, Gümüş & Emtia ve Arama çubuğu ile anında filtreleme.
 - 🛡️ **Atomik Dosya Yazma (Atomic Write & Throttling):** Fiyatlar saniyede onlarca kez güncellense bile disk I/O darboğazını önlemek için saniyede en fazla 1 kez yazılır. Veri önce geçici `.tmp` dosyasına yazılıp `fs.rename` ile taşındığı için yarım veya bozuk JSON oluşması imkansızdır.
+- 🌐 **Otomatik Sistem & User-Agent Taraması (Cross-Platform):** Çalıştığı sunucunun işletim sistemini (Linux, Ubuntu, Debian, macOS Intel/M serisi, Windows, ARM64) otomatik algılayarak en uyumlu güncel tarayıcı User-Agent başlığını otomatik üretir (Manuel ayar gerektirmez).
 - 📱 **Mobil Uyumlu Modern Arayüz (Dark Mode):** Atlas Software temalı, dokunmatik uyumlu, fiyat artış/azalışlarında yeşil/kırmızı canlı animasyonlu modern kullanıcı paneli.
 - 🩺 **Health Check & Telemetri:** `/health` uç noktası üzerinden soket bağlantı durumu, uptime, RAM kullanımı ve disk flush metrikleri.
 - 🛑 **Graceful Shutdown & Dayanıklılık:** `SIGINT` / `SIGTERM` sinyallerinde askıda bekleyen veri diske flush edilir ve bağlantılar güvenle sonlandırılır.
