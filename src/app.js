@@ -1058,3 +1058,5 @@ export function createApp(config, store, socketClient) {
 
   return app;
 }
+
+export default createApp;
