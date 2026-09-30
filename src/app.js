@@ -36,8 +36,12 @@ export function createApp(config, store, socketClient) {
   /**
    * Synchronous /tmp/altin.json endpoint
    */
-  app.get(['/tmp/altin.json', '/altin.json'], (req, res) => {
-    const state = store.getState();
+  app.get(['/tmp/altin.json', '/altin.json'], async (req, res) => {
+    let state = store.getState();
+    if (state.total_items === 0 && store.waitForData) {
+      state = await store.waitForData(3500);
+    }
+
     if (state.total_items > 0) {
       return res.status(200).json(state);
     }
@@ -54,17 +58,23 @@ export function createApp(config, store, socketClient) {
   /**
    * Fast In-Memory API Endpoint
    */
-  app.get('/api/altin', (req, res) => {
-    const state = store.getState();
+  app.get('/api/altin', async (req, res) => {
+    let state = store.getState();
+    if (state.total_items === 0 && store.waitForData) {
+      state = await store.waitForData(3500);
+    }
     return res.status(200).json(state);
   });
 
   /**
    * Single symbol query endpoint
    */
-  app.get('/api/altin/:code', (req, res) => {
+  app.get('/api/altin/:code', async (req, res) => {
     const code = req.params.code?.toUpperCase();
-    const state = store.getState();
+    let state = store.getState();
+    if (state.total_items === 0 && store.waitForData) {
+      state = await store.waitForData(3500);
+    }
     const item = state.data?.[code];
 
     if (!item) {
@@ -84,13 +94,17 @@ export function createApp(config, store, socketClient) {
   /**
    * ⚡ Real-Time Server-Sent Events (SSE) Live Stream Endpoint
    */
-  app.get(['/api/stream', '/api/altin/stream', '/events'], (req, res) => {
+  app.get(['/api/stream', '/api/altin/stream', '/events'], async (req, res) => {
     res.setHeader('Content-Type', 'text/event-stream; charset=utf-8');
     res.setHeader('Cache-Control', 'no-cache, no-transform');
     res.setHeader('Connection', 'keep-alive');
     res.setHeader('X-Accel-Buffering', 'no');
+    if (res.flushHeaders) res.flushHeaders();
 
-    const initialState = store.getState();
+    let initialState = store.getState();
+    if (initialState.total_items === 0 && store.waitForData) {
+      initialState = await store.waitForData(3500);
+    }
     res.write(`event: initial\ndata: ${JSON.stringify(initialState)}\n\n`);
 
     const onRatesUpdated = (updateData) => {
@@ -1001,6 +1015,34 @@ export function createApp(config, store, socketClient) {
       statusBadge.style.borderColor = 'rgba(16, 185, 129, 0.35)';
       statusBadge.style.color = '#34d399';
     };
+
+    // Instant initial fetch & serverless resilience fallback
+    async function fetchLatestRates() {
+      try {
+        const res = await fetch('/api/altin');
+        if (!res.ok) return;
+        const payload = await res.json();
+        if (payload.last_updated_at) {
+          lastUpdateText.innerText = new Date(payload.last_updated_at).toLocaleTimeString('tr-TR');
+        }
+        if (payload.data && Object.keys(payload.data).length > 0) {
+          Object.entries(payload.data).forEach(([code, item]) => {
+            localRates[code] = item;
+            renderCard(item);
+          });
+          updateBadgeCounts();
+          filterAllCards();
+        }
+      } catch (err) {
+        // Silent catch for resilience
+      }
+    }
+
+    // Call immediately on page load
+    fetchLatestRates();
+
+    // Auto-refresh fallback every 10 seconds if SSE is closed/throttled by serverless limits
+    setInterval(fetchLatestRates, 10000);
   </script>
 </body>
 </html>`;

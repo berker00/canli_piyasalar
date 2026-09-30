@@ -1,0 +1,6 @@
+.git
+.env
+.env.example
+ecosystem.config.cjs
+node_modules
+.DS_Store

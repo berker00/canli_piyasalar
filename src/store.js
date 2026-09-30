@@ -183,6 +183,42 @@ export class RateStore extends EventEmitter {
   }
 
   /**
+   * Waits until initial rates are received or timeout occurs.
+   * Crucial for Serverless environments (e.g. Vercel) during cold start.
+   *
+   * @param {number} timeoutMs
+   * @returns {Promise<object>}
+   */
+  waitForData(timeoutMs = 3500) {
+    if (Object.keys(this.currentRates).length > 0) {
+      return Promise.resolve(this.getState());
+    }
+
+    return new Promise((resolve) => {
+      let resolved = false;
+
+      const timer = setTimeout(() => {
+        if (!resolved) {
+          resolved = true;
+          this.removeListener('rates_updated', onUpdate);
+          resolve(this.getState());
+        }
+      }, timeoutMs);
+
+      const onUpdate = () => {
+        if (!resolved && Object.keys(this.currentRates).length > 0) {
+          resolved = true;
+          clearTimeout(timer);
+          this.removeListener('rates_updated', onUpdate);
+          resolve(this.getState());
+        }
+      };
+
+      this.once('rates_updated', onUpdate);
+    });
+  }
+
+  /**
    * Returns current internal store metrics.
    */
   getMetrics() {

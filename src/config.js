@@ -9,6 +9,9 @@ dotenv.config();
  * Resolves output file path (relative or absolute).
  */
 const resolveOutputPath = (rawPath) => {
+  if (process.env.VERCEL) {
+    return '/tmp/altin.json';
+  }
   if (!rawPath) {
     return path.resolve(process.cwd(), 'public/tmp/altin.json');
   }

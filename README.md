@@ -190,20 +190,33 @@ GET /health
 
 ---
 
-## 🏭 Production (PM2 & Systemd) Dağıtımı
+## ☁️ Vercel Dağıtımı (Serverless Deployment)
 
-### PM2 ile Arka Planda Kesintisiz Çalıştırma:
+Proje, Vercel Serverless mimarisine tam uyumlu hale getirilmiştir (`vercel.json` ve `api/index.js`).
+
+### 1. Yöntem: Vercel CLI ile Hızlı Dağıtım
 ```bash
-# PM2 ile başlatın
-pm2 start ecosystem.config.cjs
+# Vercel CLI kurulu değilse yükleyin
+npm i -g vercel
 
-# Logları canlı takip edin
-pm2 logs haremaltin-collector
+# Proje dizininde dağıtımı başlatın
+vercel
 
-# Sistem açılışında otomatik başlama
-pm2 startup
-pm2 save
+# Production dağıtımı için
+vercel --prod
 ```
+
+### 2. Yöntem: GitHub ile Otomatik Dağıtım
+1. Projenizi [GitHub](https://github.com) deponuza gönderin (`git push`).
+2. [Vercel Dashboard](https://vercel.com/dashboard) adresine gidin.
+3. **"Add New..." -> "Project"** seçin ve GitHub deponuzu içe aktarın (`Import`).
+4. **Environment Variables** bölümüne (isteğe bağlı) şunları ekleyin:
+   - `OUTPUT_PATH`: `/tmp/altin.json` (Vercel salt-okunur disk hatasını önler, varsayılan olarak tanımlıdır)
+   - `FLUSH_INTERVAL_MS`: `1000`
+5. **"Deploy"** butonuna tıklayın.
+
+> **💡 Vercel & Serverless Notu:**
+> Vercel Serverless Functions yapısı gereği istek geldikçe ayağa kalkar (stateless). Proje içinde cold-start anında ilk veriyi anında alacak `waitForData` ve kopmalarda otomatik aralıklı sorgulama yapacak (fallback polling) mimarisi hazır olarak yapılandırılmıştır. 7/24 kesintisiz açık WebSocket dinleyicisi için dilerseniz Railway, Render veya PM2/VPS alternatiflerini de kullanabilirsiniz.
 
 ---
 
